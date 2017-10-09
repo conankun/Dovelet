@@ -1,0 +1,1 @@
+main(n,i,j,sum){scanf("%d",&n);sum=0;for(i=1;i<=n;i++) {for(j=i+2;j<=(i==1?n-1:n);j++) {int a = j-i-1;int b = n-j;sum+=a*b;}}printf("%d",sum);}

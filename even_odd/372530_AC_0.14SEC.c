@@ -1,0 +1,1 @@
+char r[2][9]={"even","odd"};main(a,b,c,d){scanf("%d%d",&a,&b);c=r[a%2];d=r[b%2];printf("%s+%s=%s\n%s*%s=%s",c,d,r[(a+b)%2],c,d,r[(a*b)%2]);}

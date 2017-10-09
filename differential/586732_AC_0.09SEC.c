@@ -1,0 +1,1 @@
+char a[9999];main(){scanf("%s",a);puts(a);}

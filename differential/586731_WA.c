@@ -1,0 +1,1 @@
+char a[9999];main(){gets(a);puts(a);}

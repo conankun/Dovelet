@@ -1,0 +1,1 @@
+main(a,b){scanf("%d%d",&a,&b);if(a==0)a=1;printf("%d %d",b/a,b-(b/a*a));}

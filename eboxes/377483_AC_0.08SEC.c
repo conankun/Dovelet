@@ -1,0 +1,1 @@
+main(n,k,t,f){scanf("%d%d%d%d",&n,&k,&t,&f);printf("%d",(f-n)/(k-1)*k+n);}

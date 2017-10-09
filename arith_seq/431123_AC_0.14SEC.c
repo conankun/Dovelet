@@ -1,0 +1,1 @@
+main(a,b,c){scanf("%d%d%d",&a,&b,&c);if((c-a)%b != 0) printf("X");else printf("%d",(c-a)/b+1);}

@@ -1,0 +1,1 @@
+main () {long long n,l;scanf("%lld",&n);l=n*3*(n*n+n-2)/4-6;printf("%lld",l);}

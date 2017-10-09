@@ -1,0 +1,3 @@
+#include<iostream>
+using namespace std;
+int n,m;int arr[301]={0};int dp[301][301]={0};int gusul[301][301]={0};int main() {cin>>n>>m;for(int i=1;i<=n;i++) cin>>arr[i];dp[1][1]=arr[1];gusul[1][1] = 1;for(int i=2;i<=n;i++) {dp[1][i] = dp[1][i-1]+arr[i];gusul[1][i] = i;}for(int i=2;i<=m;i++) {for(int j=i;j<=n;j++) {int min=9999999;int mink;for(int k=j;k>=i;k--) {int mx = max(dp[i-1][k-1],dp[1][j]-dp[1][k-1]);if(mx < min) {min = mx;mink = k;}}dp[i][j] = min;gusul[i][j] = j-mink+1;}}cout<<dp[m][n]<<endl;int bt[301]={0};int in=0;int a=m,b = n;while(gusul[a][b] != 0){bt[in++]=gusul[a][b];b -= gusul[a][b];a--;}for(int i=in-1;i>=0;i--) cout<<bt[i]<<" ";}

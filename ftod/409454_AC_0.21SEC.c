@@ -1,0 +1,1 @@
+main(n,m,k){scanf("%d%d%d",&n,&m,&k);printf("%d.",n/m);for(n%=m;k--;n%=m){n*=10;printf("%d",n/m);}}

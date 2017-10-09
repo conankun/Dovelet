@@ -1,0 +1,1 @@
+main(){int a,b,c;scanf("%d%d%d",&a,&b,&c);printf("%d.",a/b);a*=10;while(c--){printf("%d",a/b);a=(a%b)*10;}}

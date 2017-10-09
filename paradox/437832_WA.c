@@ -1,0 +1,1 @@
+main(n){scanf("%d",&n);printf("%.6f",n/365.00);}

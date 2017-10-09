@@ -1,0 +1,1 @@
+main(a,b,c,d,e,f,g,h,i,j){scanf("%d%d%d%d%d%d%d%d%d%d",&a,&b,&c,&d,&e,&f,&g,&h,&i,&j);printf("%d",a+3*b+3*c+3*d+6*e+3*f+g+3*h+3*i+j);}
